@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/project/assets/pexels-pixabay-414837.jpg);
+}
+.nav{
+    display: flex;
+    background-color:rgb(239, 146, 196);
+    height: 75px;
+    width: 100%;
+    align-items: center;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 55px;
+    font-size: large;
+}
+a{text-decoration: none;color: black;}
+video{
+    width: 100%;;
+}
+.intro{
+    column-count: 2;
+    margin: 2%;
+    font-size: large;
+}
+marquee{
+    font-size: larger;
+    font-style: oblique;
+    padding: 1%;
+    background-image: url("/project/assets/pexels-pixabay-414837.jpg");
+}
+.intro1{
+    font-size: large;
+    margin: 2%;
+}
+.more{
+    float: right;
+    border-radius: 20px;
+    padding: 1% 2%; 
+    margin:2% 20% 5% 0%;
+    background-color: grey;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    padding: 1%;
+    background-color: plum;
+    margin-top: 10%;
+
+}
+
+/*login*/
+label{
+    display: inline-block;
+    width: 100%;
+}
+#qw,input{
+    width: 100%;
+}
+.form{
+    padding: 100px;
+    width: 50%;
+    background-color:bisque;
+    margin: 13%;
+    margin-left: 19%;
+    border: solid black;
+}
+
+/*contact*/
+.form1{
+    padding: 100px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(220, 247, 103);
+    margin: auto;
+    border: solid black;
+}
+#submit{
+    margin-left: 5px;
+    border: solid black;
+}
+input:focus{
+    background-color: rgb(225, 222, 222);
+}
+
+/*about*/
